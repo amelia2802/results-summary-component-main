@@ -17,19 +17,19 @@ function showSummary(){
     let summary=`
     <h2>Summary</h2>
     <div id="reaction" class="summ-list">
-        <h3><img src="${data[0].icon}" />${data[0].category}</h3>
+        <h3><img src="${data[0].icon alt="reaction"}" />${data[0].category}</h3>
         <p><span>${data[0].score}</span> / 100</p>
     </div>
     <div id="memory" class="summ-list">
-        <h3><img src="${data[1].icon}" />${data[1].category}</h3>
+        <h3><img src="${data[1].icon}" alt="memory" />${data[1].category}</h3>
         <p><span>${data[1].score}</span> / 100</p>
     </div>
     <div id="verbal" class="summ-list">
-        <h3><img src="${data[2].icon}" />${data[2].category}</h3>
+        <h3><img src="${data[2].icon}" alt="verbal" />${data[2].category}</h3>
         <p><span>${data[2].score}</span> / 100</p>
     </div>
     <div id="visual" class="summ-list">
-        <h3><img src="${data[3].icon}" />${data[3].category}</h3>
+        <h3><img src="${data[3].icon}" alt="visual" />${data[3].category}</h3>
         <p><span>${data[3].score}</span> / 100</p>
     </div>
     <button class="continue" type="submit" value="Submit">Continue</button>
